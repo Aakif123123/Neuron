@@ -1,0 +1,3071 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing:border-box;
+        
+    }
+     #header1{
+        width: 100%;
+        height: 120vh;
+        background-image: url(./Neuron-img/h1-s1.jpg);
+        background-position: left;
+        background-size: cover;
+     }
+     #nav1{
+        width: 100%;
+        height: 70px;
+        border: 1px solid bwlack;
+        background-image: url(./Neuron-img/contact-bg.jpg);
+        padding-top: 1px;
+     }
+     #d1{
+        width: 450px;
+        height: 40px;
+        border: 1px solid blwack;
+        margin-top: 25px;
+        margin-left: 100px;
+     }
+     #chld1{
+        width: 190px;
+        height: 30px;
+        border: 1px ssolid black;
+        margin-top: 5px;
+     }
+     #class1{
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        /* margin-top: 20px; */
+     }
+     #h1{
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        font-weight: 450;
+        margin-left: 29px;
+        margin-top: -23px;
+     }
+     #chld2{
+        width: 150px;
+        height: 30px;
+        border: 1px solid bslack;
+        margin-left: 220px;
+       margin-top: -38px;
+
+     }
+     #class2{
+        font-size: 14px;
+        color: white;
+        margin-top: -5px;
+     }
+     #h2{
+         font-size: 16px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         color: white;
+         font-weight: 450;
+         margin-left: 40px;
+         margin-top: -22px;
+     }
+     #d2{
+        width: 130px;
+        height: 30px;
+        border: 1px solid blacsk;
+        margin-left: 85%;
+        margin-top: 40px;
+        margin-top: -50px;
+     }
+     #d3{
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 120px;
+        color: white;
+        margin-top: -23px;
+        font-weight: 800;
+     }
+     #class2{
+        font-size: 14px;
+        margin-left: 20px;
+        margin-top: 10px;
+     }
+     #nav2{
+        width: 100%;
+        height: 70px;
+        border: 1px solid wblack;
+        background-image: url(./Neuron-img/contact-bg.jpg);
+        /* margin-top: 70px; */
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+     }
+     #d4{
+        width: 150px;
+        height: 60px;
+        background-image: url(./Neuron-img/logo-white.png);
+        background-repeat: no-repeat;
+        background-position: center;
+         background-size: contain;
+         margin-left: 100px;
+         display: inline-block;
+         vertical-align: top;
+     }
+     #d5{
+        width: 47%;
+        height: 40px;
+        border: 1px soldid black;
+        margin-left: 25%;
+        margin-top: 12px;
+        display: inline-block;
+     }
+     #ul01{
+       /* font-size: 24px; */
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-weight: 600;     
+        list-style: none;
+        margin-left: 5%;
+        color: white;
+        margin-top: 10px;
+     }
+     #list1{
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 30px;
+     }
+     #d6{
+        width: 100px;
+        height: 30px;
+        border: 1px solid bslack;
+        display: inline-block;
+        margin-top: 25px;
+        margin-left: 20px;
+        vertical-align: top;
+     }
+     #class3{
+        font-size: 16px;
+        color: white;
+        margin-left: 20px;
+        text-align: center ;
+     }
+     #d7{
+        width: 40%;
+        height: 550px;
+        /* border: 1px solid black; */
+        margin-top: 80px;
+       padding-top: 1px;
+       margin-left: 60px;
+       display: inline-block;
+       vertical-align: top;
+     }
+     #d8{
+        width: 100%;
+        height: 260px;
+        border: 1px solid bldack;
+        margin-top: 60px;
+        font-size: 65px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        line-height: 70px;
+        color: white;
+     }
+     #d9{
+        width: 90%;
+        height: 50px;
+        border: 1px solid blsack;
+        margin-top: px;
+        font-size: 22px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 400;
+        color: white;
+     }
+     #d10{
+        width: 170px;
+        height: 50px;
+        border: 1px solid bladck;
+        background-color: white;
+        display: inline-block;
+        border-radius: 30px;
+        margin-top: 50px;
+        margin-left: 10px;
+       padding-top: 1px;
+     }
+      #h3{
+        color: rgb(48,178,250);
+       font-size: 17px;
+       text-align: center;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-weight: 600;
+        margin-top: 13px;
+      }
+      #d11{
+        width: 170px;
+        height: 50px;
+        border: 1px solid white;
+        display: inline-block;
+        vertical-align: bottom;
+        border-radius: 30px;
+        background-color: transparent;
+        margin-left: 40px;
+
+      }    
+      #h4{
+        font-size: 17px;
+        text-align: center;
+        margin-top: 13px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+        color: white;
+      }
+      #s1{
+        width: 25%;
+        height: 560px;
+        border: 1px soslid black;
+        background-image: url(./Neuron-img/sl1-ly1.png);
+        background-position: center;
+        display: inline-block;
+        animation-name: play;
+        animation-timing-function: ease-in-out;
+        animation-direction:alternate ;
+        animation-duration: 2.5s;
+        animation-iteration-count: infinite;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left:60px;
+        margin-top: 40px;
+      }
+
+      @keyframes play {
+         from{
+            margin-top: 40px;
+
+         }
+         
+
+         to{
+            margin-top: 70px;
+         }
+      }
+      #s2{
+        width: 26%;
+        height: 430px;
+        border: 1px solid blacdk;
+        background-image: url(./Neuron-img/sl1-ly2.png);
+        background-position: left;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left:0px;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 180px;
+      }
+      #section1{
+        width: 100%;
+        height: 230vh;
+        background-color: rgb(251,251,251);
+        /* margin-top: -100px; */
+        padding-top: 1px;
+      }
+      #s3{
+         width: 350px;
+         height: 270px;
+         border: 1px solid blacsk;
+         background-color: white;
+         border-radius: 15px;
+         display: inline-block;
+         vertical-align: top;
+         margin-top:120px;
+         margin-left: 90px;
+         padding-top: 1px;
+      }
+      #s4{
+         width: 70px;
+         height: 70px;
+         border: 1px solid blacdk;
+         margin-top: 30px;
+         margin-left: 100px;
+      
+      }
+      #img1{
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         filter: brightness(0) saturate(100%) invert(66%) sepia(37%) saturate(6935%) hue-rotate(162deg) brightness(93%) contrast(98%);
+      }
+      #s5{
+         width: 250px;
+         height: 40px;
+         border: 1px solid blacsk;
+         margin-top: 20px;
+         margin-left: 60px;
+         color: black;
+         font-size: 20px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 700;
+      }
+      #s6{
+         width: 100%;
+         height: 60px;
+         border: 1px sdolid black;
+         margin-top: 10px;
+         margin-left: 0px;
+      }
+      #p1{
+         font-size: 18px;
+         font-weight: 600;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         color: rgba(0, 0, 0, 0.585);
+         text-align: center;
+         line-height: 30px;
+      }
+      .s7{
+         width: 350px;
+         height: 270px;
+         border: 1px solid blasck;
+         background-color: white;
+         border-radius: 15px;
+         display: inline-block;
+         vertical-align: top;
+         margin-left: 40px;
+         margin-top: 230px;
+         padding-top: 1px;
+      }
+      .s8{
+         width: 130px;
+         height: 75px;
+         /* border: 1px solid black; */
+         background-image: url(./artificial-intelligence.png);
+         background-repeat: no-repeat;
+         background-size: contain;
+         margin-left: 120px;
+         margin-top: 30px;
+
+      }
+      .s9{
+         width: 260px;
+         height: 40px;
+         border: 1px soslid violet;
+         margin-top: 20px;
+         margin-left: 70px;
+         font-size: 20px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 700;
+         color: black;
+      }
+      .s10{
+         width: 100%;
+         height: 60px;
+         border: 1px solid dblack;
+         margin-top: 20px;
+         font-size: 18px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 600;
+         color: rgba(0, 0, 0, 0.63);
+         text-align: center;
+         line-height: 30px;
+
+      }
+      .q1{
+         width: 350px;
+         height: 270px;
+         border: 1px solid bslack;
+         background-color: white;
+         margin-left: 90px;
+         margin-top: -80px;
+         border-radius: 15px;
+         padding-top: 1px;
+      }
+      .q2{
+         width: 150px;
+         height: 80px;
+         border: 1px solid sblack;
+         margin-top: 20px;
+         margin-left: 100px;
+         background-image: url(./Neuron-img/technology.png);
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: contain;
+      }
+      .q3{
+         width: 170px;
+         height:40px;
+         border: 1px soslid black;
+         margin-top: 10px;
+         margin-left: 110px;
+         font-size: 23px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 700;
+         color: black;
+
+      }
+      .q4{
+         width: 100%;
+         height: 60px;
+         border: 1px solid blasck;
+         margin-top: 20px;
+
+      }
+      #p3{
+         font-size: 19px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 600;
+         text-align: center;
+         color: rgba(0, 0, 0, 0.622);
+         line-height: 30px;
+      }
+      #q5{
+         width: 350px;
+         height: 270px;
+         border: 1px solisd black;
+         margin-left: 485px;
+         margin-top: -170px;
+         border-radius: 15px;
+         background-color: white;
+         padding-top: 1px;
+      }
+      #q6{
+         width: 170px;
+         height: 80px;
+         /* border: 1px solid black; */
+         background-image: url(./robot.png);
+         background-repeat: no-repeat;
+         background-size: contain;
+         margin-top: 30px;
+         margin-left: 128px;
+      }
+      #q7{
+         width: 140px;
+         height: 40px;
+         /* border: 1px solid black; */
+         margin-top: 5px;
+         margin-left:100px ;
+         font-size: 23px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 700;
+         color: black;
+      }
+      #q8{
+         width: 100%;
+         height: 60px;
+         /* border: 1px solid black; */
+         margin-top: 30px;
+
+      }
+      #p4{
+         font-size: 19px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 600;
+         color: rgba(0, 0, 0, 0.63);  
+         text-align: center;
+      }
+      .q9{
+         width: 40%;
+           height: 490px;
+           /* border: 1px solid black; */
+           margin-left: 59%;
+           margin-top: -570px;
+      }
+      .l1{
+         width: 100%;
+         height: 150px;
+         /* border: 1px solid black; */
+         font-size: 45px;
+         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 700;
+         color: rgba(0, 0, 0, 0.816);
+      }
+      .g1{
+         width: 160px;
+         height: 12px;
+         background: linear-gradient( 120deg,rgb(1,160,249),rgb(9,199,120));
+         margin-top: -107px;
+      }
+      .l2{
+         width: 100%;
+         height: 190px;
+         margin-top: 100px;
+         /* border: 1px solid black; */
+         text-align: left;
+         
+      }
+      #p5{
+         font-size: 17px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 600;
+         color: rgba(0, 0, 0, 0.632);
+
+      }
+      #p6{
+         font-size: 17px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 600;
+         color: rgba(0, 0, 0, 0.608);
+         margin-top: 28px;
+      }
+      .l3{
+         width: 200px;
+         height: 60px;
+         border: 1px sdolid black;
+         background: linear-gradient(rgb(1,160,249),rgb(9,199,120));
+         border-radius: 28px;
+         margin-top: 35px;
+         padding-top: 1px;
+       
+
+      }
+      #h5{
+         font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        color: white;
+       margin-top: 13px;
+       margin-left: 45px; 
+
+      }
+      .l4{
+         width: 46%;
+         height: 500px;
+         /* border: 1px solid black; */
+         display:inline-block ;
+         vertical-align: top;
+         margin-top: 330px;
+         margin-left: 70px;
+      }
+      .l5{
+         width: 100%;
+         height: 150px;
+         /* border: 1px solid black; */
+         font-size: 46px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 640;
+         color: rgba(0, 0, 0, 0.892);
+
+      }
+      .l6{
+         width: 150px;
+         height: 10px;
+         background: linear-gradient(120deg,rgb(1,160,249),rgb(9,199,120));
+         margin-top: -107px;
+      }
+      .l7{
+         width: 100%;
+         height: 250px;
+         /* border: 1px solid black; */
+         margin-top: 120px;
+         
+      }
+      #p7{
+         font-size: 17px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 600;
+         color: rgba(0, 0, 0, 0.622);
+         text-align: left;
+      }
+      #p8{
+         font-size: 17px;
+         margin-top: 50px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 600;
+         color:rgba(0, 0, 0, 0.632) ;
+         text-align: left;
+      }
+      .l8{
+         width: 180px;
+         height: 50px;
+         border: 1px sdolid black;
+         background: linear-gradient(rgb(1,160,249),rgb(9,199,120));
+         border-radius: 28px;
+         margin-top: 35px;
+         padding-top: 1px;
+       display: inline-block;
+       vertical-align: top;
+
+      }
+      #h6{
+         font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        color: white;
+       margin-top: 12px;
+       margin-left: 37px; 
+
+      }
+      .l9{
+         width: 70px;
+         height: 70px;
+         background: linear-gradient(rgb(1,160,249),rgb(9,199,120));
+         border-radius: 50%;
+         /* display: inline-block; */
+         /* vertical-align: top; */
+         /* margin-top: 36px; */
+         /* margin-left: 30px; */
+         padding-top: 1px;
+         position: absolute;
+         left: 0;
+         top: 0;
+         opacity: 0;
+
+         
+         /* border-radius: 50%; */
+      }
+      
+      .l9:hover{
+         animation: bubble 1.1s linear infinite;
+
+      }
+
+      @keyframes bubble {
+         from{
+            transform: scale(1);
+            opacity: 1;
+         }
+
+         to{
+            transform: scale(1.78);
+            opacity: 0;
+         }
+      
+         
+      }
+      #c1{
+         font-size: 70px;
+         background:linear-gradient(rgb(1,160,249),rgb(9,199,120)) ;
+
+         -webkit-text-fill-color: transparent;
+         -webkit-background-clip: text;
+
+      }
+      .l10{
+         width: 70px;
+         height: 70px;
+         border-radius: 50px;
+         /* border: 1px solid black; */
+         display: inline-block;
+         vertical-align: top;
+         position: relative;
+         margin-top: 26px;
+         margin-left: 30px;
+      }
+      /* .l10:hover{ */
+         /* transform: translate(70px,70px)scale(1.7) rotate(0deg); */
+      
+      .z1{
+         width: 43%;
+         height: 640px;
+         border: 1px solid bladck;
+         display: inline-block;
+         text-align: top;
+         margin-left: 30px;
+         margin-top: 250px;
+         background-image: url(./Neuron-img/about-video-part.png);
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: contain;
+      }
+      #section2{
+         width: 100%;
+         height: 320px;
+         background: linear-gradient( 360deg,rgb(1,160,249),rgb(9,199,120)) ;
+
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         padding: 1px;
+      }
+      .z2{
+         width: 90%;
+         height: 200px;
+         /* border: 1px solid black; */
+         margin-top: 55px;
+         margin-left: 80px;
+      }
+      .z3{
+         width: 230px;
+         height: 200px;
+         /* border: 1px solid black; */
+         display: inline-block;
+         vertical-align: top;
+         background-image: url(./Neuron-img/count-shape.png);
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: contain;
+      }
+      .z4{
+         width: 150px;
+         height: 40px;
+         /* border: 1px solid black; */
+         margin-top: 30px;
+         margin-left: 55px;
+         font-size: 40px;
+         font-weight: 700;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         color: white;
+      }
+      #span1{
+         font-size: 45px;
+         color: white;
+         font-weight: 900;
+         margin-left: -10px;
+      }
+      .z5{
+         width: 190px;
+         height: 30px;
+         /* border: 1px solid black; */
+         margin-top: 30px;
+         margin-left: 23px;
+        font-size: 23px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        color: white;
+      }
+      .z6{
+         width: 230px;
+         height: 200px;
+         /* border: 1px solid black; */
+         margin-left: 120px;
+         display: inline-block;
+         vertical-align: top;
+         background-image: url(./Neuron-img/count-shape.png);
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: contain;
+         padding: 1px;
+      }
+      .z7{
+         width: 120px;
+         height: 30px;
+         /* border: 1px solid black; */
+         margin-top: 28px;
+         margin-left: 60px;
+         font-size: 40px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 700;
+         color: white;
+      }
+      .z8{
+         width: 160px;
+         height: 40px;
+         /* border: 1px solid black; */
+         margin-left: 43px;
+         margin-top: 40px;
+         font-size: 24px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 700;
+         color: white;
+
+      }
+      .z9{
+         width: 230px;
+         height: 200px;
+         /* border: 1px solid black; */
+         margin-left: 120px;
+         display: inline-block;
+         vertical-align: top;
+         background-image: url(./Neuron-img/count-shape.png);
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: contain;
+         padding: 1px;
+      }
+      .z10{
+         width: 160px;
+         height: 30px;
+         /* border: 1px solid black; */
+         margin-top: 28px;
+         margin-left: 49px;
+         font-size: 40px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 700;
+         color: white;
+      }
+      .z11{
+         width: 190px;
+         height: 40px;
+         /* border: 1px solid black; */
+         margin-left: 23px;
+         margin-top: 40px;
+         font-size: 24px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 700;
+         color: white;
+      }
+      
+      .z12{
+         width: 230px;
+         height: 200px;
+         /* border: 1px solid black; */
+         margin-left: 120px;
+         display: inline-block;
+         vertical-align: top;
+         background-image: url(./Neuron-img/count-shape.png);
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: contain;
+         padding: 1px;
+      }
+      .z13{
+         width: 160px;
+         height: 30px;
+         /* border: 1px solid black; */
+         margin-top: 28px;
+         margin-left: 49px;
+         font-size: 40px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 700;
+         color: white;
+      }
+      .z14{
+         width: 200px;
+         height: 40px;
+         /* border: 1px solid black; */
+         margin-left: 15px;
+         margin-top: 40px;
+         font-size: 24px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 700;
+         color: white;
+      }
+      .x1{
+         width: 100%;
+         height: 150vh;
+         background-color: rgb(234,236,242);
+         padding: 1px;
+      }
+      .x2{
+         width: 460px;
+         height: 80px;
+         /* border: 1px solid black; */
+         margin-top: 70px;
+         margin-left: 37%;
+         font-size: 50px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 645;
+         color: rgba(0, 0, 0, 0.814);
+      }
+      .x3{
+         width: 150px;
+         height: 10px;
+         background: linear-gradient(120deg,rgb(1,160,249),rgb(9,199,120));
+         margin-top: -34px;
+         margin-left: 46%;
+      }
+      .x4{
+         width: 90%;
+         height: 97vh;
+         /* border: 1px solid black; */
+         margin-top: 90px;
+         margin-left: 80px;
+         padding: 1px;
+      }
+      .x5{
+         width: 420px;
+         height: 320px;
+         /* border: 1px solid black; */
+         background-color: white;
+         border-radius:15px ;
+        display: inline-block;
+        vertical-align: top;
+
+      }
+      .x6{
+         width: 150px;
+         height: 100px;
+         /* border: 1px solid black; */
+         margin-top: 40px;
+         background-image: url(./Neuron-img/artificial-intelligence\ \(2\).png);
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: contain;
+         margin-left: 120px;
+      }
+      .x7{
+         width: 290px;
+         height: 40px;
+         /* border: 1px solid black; */
+         margin-top: 20px;
+         margin-left: 60px;
+         font-size: 23px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 700;
+         color: black;
+      }
+      .x8{
+         width: 100%;
+         height: 80px;
+         /* border: 1px solid black; */
+         text-align: center;
+         margin-top: 20px;
+      }
+      #p9{
+         font-size: 17px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 500;
+         color: rgba(0, 0, 0, 0.578);
+
+      }
+      .x9{
+         width: 420px;
+         height: 320px;
+         /* border: 1px solid black; */
+         background-color: white;
+         border-radius:15px ;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 45px;
+
+      }
+      .x11{
+         width: 150px;
+         height: 100px;
+         /* border: 1px solid black; */
+         margin-top: 40px;
+         background-image: url(./Neuron-img/artificial-intelligence\ \(4\).png);
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: contain;
+         margin-left: 120px;
+      }
+       .x10{
+         width: 290px;
+         height: 40px;
+         /* border: 1px solid black; */
+         margin-top: 20px;
+         margin-left: 100px;
+         font-size: 23px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 700;
+         color: black;
+      }
+      .x12{
+         width: 100%;
+         height: 80px;
+         /* border: 1px solid black; */
+         text-align: center;
+         margin-top: 20px;
+      }
+      #p10{
+         font-size: 17px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 500;
+         color: rgba(0, 0, 0, 0.578);
+
+      }
+      .x13{
+         width: 420px;
+         height: 320px;
+         /* border: 1px solid black; */
+         background-color: white;
+         border-radius:15px ;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 45px;
+
+      }
+      .x14{
+         width: 150px;
+         height: 100px;
+         /* border: 1px solid black; */
+         margin-top: 40px;
+         background-image: url(./Neuron-img/artificial-intelligence\ \(3\).png);
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: contain;
+         margin-left: 125px;
+      }
+      .x15{
+         width: 290px;
+         height: 40px;
+         /* border: 1px solid black; */
+         margin-top: 20px;
+         margin-left: 95px;
+         font-size: 23px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 700;
+         color: black;
+      }
+      .x16{
+         width: 100%;
+         height: 80px;
+         /* border: 1px solid black; */
+         text-align: center;
+         margin-top: 20px;
+      }
+      #p11{
+         font-size: 17px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 500;
+         color: rgba(0, 0, 0, 0.578);
+
+      }
+      .c1{
+         width: 420px;
+         height: 320px;
+         /* border: 1px solid black; */
+         background-color: white;
+         border-radius:15px ;
+         display: inline-block;
+         margin-top: 45px;
+         padding: 1px;
+      }
+      .c2{
+         width: 150px;
+         height: 100px;
+         /* border: 1px solid black; */
+         margin-top: 40px;
+         background-image: url(./Neuron-img/digital.png);
+         filter: brightness(0) saturate(100%) invert(58%) sepia(30%) saturate(6659%) hue-rotate(148deg) brightness(95%) contrast(102%);
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: contain;
+         margin-left: 125px;
+      }
+      .c3{
+         width: 290px;
+         height: 40px;
+         /* border: 1px solid black; */
+         margin-top: 20px;
+         margin-left: 70px;
+         font-size: 23px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 700;
+         color: black;
+      }
+      .c4{
+         width: 100%;
+         height: 80px;
+         /* border: 1px solid black; */
+         text-align: center;
+         margin-top: 20px;
+      }
+      #p11{
+         font-size: 17px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 500;
+         color: rgba(0, 0, 0, 0.578);
+
+      }
+      .c5{
+         width: 420px;
+         height: 320px;
+         /* border: 1px solid black; */
+         background-color: white;
+         border-radius:15px ;
+         display: inline-block;
+         vertical-align: top;
+         padding: 1px;
+         margin-top: 45px;
+         margin-left: 44px;
+      }
+      .c6{
+         width: 150px;
+         height: 100px;
+         /* border: 1px solid black; */
+         margin-top: 40px;
+         background-image: url(./Neuron-img/artificial-intelligence\ \(1\).png);
+         filter: brightness(0) saturate(100%) invert(58%) sepia(30%) saturate(6659%) hue-rotate(148deg) brightness(95%) contrast(102%);
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: contain;
+         margin-left: 125px;
+      }
+      .c7{
+         width: 340px;
+         height: 40px;
+         /* border: 1px solid black; */
+         margin-top: 20px;
+         margin-left: 45px;
+         font-size: 23px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 700;
+         color: black;
+      }
+      .c8{
+         width: 100%;
+         height: 80px;
+         /* border: 1px solid black; */
+         text-align: center;
+         margin-top: 20px;
+      }
+      .c9{
+         width: 420px;
+         height: 320px;
+         /* border: 1px solid black; */
+         background-color: white;
+         border-radius:15px ;
+         display: inline-block;
+         vertical-align: top;
+         padding: 1px;
+         margin-top: 45px;
+         margin-left: 45px;
+      }
+      .c10{
+         width: 150px;
+         height: 100px;
+         /* border: 1px solid black; */
+         margin-top: 42px;
+         background-image: url(./Neuron-img/ai-technology.png);
+         filter: brightness(0) saturate(100%) invert(58%) sepia(30%) saturate(6659%) hue-rotate(148deg) brightness(95%) contrast(102%);
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: contain;
+         margin-left: 127px;
+      }
+      .c11{
+         width: 340px;
+         height: 40px;
+         /* border: 1px solid black; */
+         margin-top: 20px;
+         margin-left: 79px;
+         font-size: 23px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 700;
+         color: black;
+      }
+      .c12{
+         width: 100%;
+         height: 80px;
+         /* border: 1px solid black; */
+         text-align: center;
+         margin-top: 20px;
+      }
+       .section3{
+         width: 100%;
+         height: 140vh;
+         background-color: rgb(247,247,247);
+         padding: 1px;
+       }
+       .ca1{
+         width: 450px;
+         height: 70px;
+         /* border: 1px solid black; */
+         margin-left: 37%;
+         margin-top: 80px;
+         font-size: 50px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 600;
+       }
+       .ca2{
+         width: 165px;
+         height: 10px;
+         background: linear-gradient(120deg,rgb(1,160,249),rgb(9,199,120));
+         margin-top: -23px;
+         margin-left: 45.5%;
+      }
+      .cont{
+            width: 90%;
+            height: 68vh;
+            /* border: 3px solid red; */
+            margin: auto;
+            margin-top: 140px;
+            overflow: hidden;
+        }
+
+        .slider{
+            width: 200%;
+            height: 100%;
+            background-color: rgb(247,247,247);
+
+            animation-name: slider;
+            animation-duration: 10s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            /* animation-play-state:inherit ; */
+            animation-delay: 2s;
+             
+            
+
+        }
+
+        @keyframes slider {
+            from{
+                margin-left: 0;
+            }
+            to{
+                margin-left: -100%;
+            }
+            
+        }
+
+        .slides{
+            width: 15%;
+            height: 100%;
+            background-image: url(./Neuron-img/1.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+               animation-delay: 5s;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .slidess{
+            margin-left: 50px;
+        }
+        .slidess1{
+         margin-left: 50px;
+         background-image: url(./Neuron-img/3.jpg);
+         animation-delay: 5s;
+        }
+        .slidess2{
+         background-image: url(./Neuron-img/1.jpg);
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+        }
+        .section4{
+         width: 90%;
+         height: 360px;
+         background-color: white;
+         position: absolute;
+         top: -180px;
+         left: 75px;
+         border-radius: 10px;
+            z-index: 1;
+            padding: 1px;
+        }
+        .section5{
+         width: 100%;
+         height: 70vh;
+         background-image: url(./Neuron-img/partner-bg.jpg);
+         background-position: left;
+         background-repeat: no-repeat;
+         background-size: cover;
+         padding: 1px;
+         position: relative;
+         z-index: 0;
+
+        }
+        .k1{
+         width: 250px;
+         height: 200px;
+         /* border: 1px solid black; */
+         margin-top: 40px;
+         margin-left: 100px;
+         display: inline-block;
+         vertical-align: top;
+        }
+        #class4{
+         font-size: 260px;
+         filter: brightness(0) saturate(100%) invert(52%) sepia(56%) saturate(3223%) hue-rotate(138deg) brightness(99%) contrast(95%);
+         
+        }
+        .k2{
+         width: 450px;
+         height: 100px;
+         /* border: 1px solid black; */
+         display: inline-block;
+         vertical-align: top;
+         margin-top: 90px;
+         margin-left: 100px;
+         font-size: 45px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 700;
+         color: rgba(0, 0, 0, 0.799);
+      }
+      .k3{
+         width: 165px;
+         height: 10px;
+         background: linear-gradient(120deg,rgb(1,160,249),rgb(9,199,120));
+         margin-top: -107px;
+         margin-left: 33.5%;
+      }
+      .f1{
+         width: 90%;
+         height: 250px;
+         /* border: 1px solid black; */
+         margin-top: 240px;
+         margin-left: 80px;
+      }
+       .k4{
+         width: 200px;
+         height: 40px;
+         background-image: url(./Neuron-img/1.png);
+         /* margin-top: 250px; */
+         /* margin-left: 130px; */
+         display: inline-block;
+         vertical-align: top;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: contain;
+       }
+       .k5{
+         width: 200px;
+         height: 40px;
+         background-image: url(./Neuron-img/2.png);
+         /* margin-top: 245px; */
+         margin-left: 80px;
+         display: inline-block;
+         vertical-align: top;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: contain;
+       }
+       .k6{
+         width: 200px;
+         height: 40px;
+         background-image: url(./Neuron-img/3.png);
+         /* margin-top: 245px; */
+         margin-left: 90px;
+         display: inline-block;
+         vertical-align: top;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: contain;
+        
+       }
+       
+       .k8{
+         width: 200px;
+         height: 40px;
+         background-image: url(./Neuron-img/4.png);
+         margin-top: 1px;
+         margin-left: 90px;
+         display: inline-block;
+         vertical-align: top;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: contain;
+        
+       }
+       .k11{
+         width: 200px;
+         height: 40px;
+         background-image: url(./Neuron-img/5.png);
+         margin-top: 1px;
+         margin-left: 80px;
+         display: inline-block;
+         vertical-align: top;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: contain;
+        
+       }
+       .b1{
+         width: 200px;
+         height: 40px;
+         background-image: url(./Neuron-img/1.png);
+         margin-top: 70px;
+         margin-left: 120px;
+         display: inline-block;
+         vertical-align: top;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: contain;
+       }
+       .b2{
+         width: 200px;
+         height: 40px;
+         background-image: url(./Neuron-img/2.png);
+         margin-top: 70px;
+         margin-left: 110px;
+         display: inline-block;
+         vertical-align: top;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: contain;
+       }
+       .b3{
+         width: 200px;
+         height: 40px;
+         background-image: url(./Neuron-img/3.png);
+         margin-top: 70px;
+         margin-left: 110px;
+         display: inline-block;
+         vertical-align: top;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: contain;
+       }
+       
+       .b4{
+         width: 200px;
+         height: 40px;
+         background-image: url(./Neuron-img/4.png);
+         margin-top: 70px;
+         margin-left: 100px;
+         display: inline-block;
+         vertical-align: top;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: contain;
+       }
+       .section6{
+         width: 100%;
+         height: 110vh;
+         background-color: white;
+         padding: 1px;
+       }
+       .b5{
+         width: 350px;
+         height: 40px;
+         /* border: 1px solid black; */
+         margin: auto;
+         margin-top: 50px;
+         font-size: 46px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 700;
+       }
+       .b6{
+         width: 165px;
+         height: 10px;
+         background: linear-gradient(120deg,rgb(1,160,249),rgb(9,199,120));
+         margin-top: 5px;
+         margin-left: 44%;
+      }
+      .b7{
+         width: 95%;
+         height: 350px;
+         /* border: 1px solid black; */
+         margin-top: 100px ;
+         margin-left: 30px;
+      }
+      .ba1{
+         width: 300px;
+         height: 300px;
+         border: 1px dashed rgb(1,160,249);
+         display: inline-block;
+         vertical-align: top;
+         border-radius: 50%;
+         position: relative;
+      }
+      .baa1{
+         width: 300px;
+         height: 300px;
+         background: linear-gradient(rgb(1,160,249),rgb(9,199,120));
+         position: absolute;
+         border-radius: 50%;
+         margin-left: 20px;
+         opacity: 0;
+         top: 0;
+         left: -20px;
+      }
+      .baa1:hover{
+         animation: ball 1s linear infinite;
+      }
+      .ba2{
+         width: 250px;
+         height: 250px;
+         background: linear-gradient(rgb(1,160,249),rgb(9,199,120));
+         border-radius: 50%;
+         margin: auto;
+         margin-top: 23px;
+         padding: 1px;
+
+      }
+
+      @keyframes  ball  {
+
+         from{
+             transform: scale(1);
+             opacity: 1;
+            
+         }
+
+         to{
+            transform: scale(1.3);
+            opacity: 0;
+         }
+      }
+      .ba5{
+         width: 150px;
+         height: 150px;
+         background-image: url(./Neuron-img/ai-technology.png);
+         filter: brightness(0) saturate(100%) invert(95%) sepia(0%) saturate(0%) hue-rotate(167deg) brightness(105%) contrast(107%);
+         background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin: auto;
+      margin-top: 40px;
+      }
+      .ba3{
+         width: 300px;
+         height: 300px;
+         border: 1px dashed rgb(1,160,249);
+         border-radius: 50%;
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        margin-left: 60px;
+
+      }
+      .baa2{
+         width: 300px;
+         height: 300px;
+         background: linear-gradient(rgb(1,160,249),rgb(9,199,120));
+         position: absolute;
+         border-radius: 50%;
+         margin-left: 20px;
+         opacity: 0;
+         top: 0;
+         left: -24px;
+      }
+      .baa2:hover{
+         animation: ball2 1s linear infinite;
+      }
+
+      @keyframes ball2 {
+         from{
+            transform: scale(1);
+            opacity: 1;
+         }
+
+         to{
+
+            transform: scale(1.3);
+            opacity: 0;
+         }
+         
+      }
+      .ba4{
+         width: 250px;
+         height: 250px;
+         background: linear-gradient(rgb(1,160,249),rgb(9,199,120));
+         border-radius: 50%;
+         margin: auto;
+         /* transition: 1s; */
+         margin-top: 23px;
+         padding: 1px;
+
+      }
+      .ba6{
+         
+         width: 150px;
+         height: 150px;
+         background-image: url(./Neuron-img/artificial-intelligence\ \(4\).png);
+         filter: brightness(0) saturate(100%) invert(95%) sepia(0%) saturate(0%) hue-rotate(167deg) brightness(105%) contrast(107%);
+         background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin: auto;
+      margin-top: 40px;
+
+      }
+      .ba7{
+         width: 300px;
+         height: 300px;
+         border: 1px  dashed rgb(1,160,249);
+         border-radius: 50%;
+         transition: 2s;
+        display: inline-block;
+        position: relative;
+        vertical-align: top;
+        margin-left: 60px;
+
+      }
+      .baa3{
+         width: 300px;
+         height: 300px;
+         background: linear-gradient(rgb(1,160,249),rgb(9,199,120));
+         position: absolute;
+         border-radius: 50%;
+         margin-left: 20px;
+         opacity: 0;
+         top: 0;
+         left: -24px;
+      }
+      .baa3:hover{
+         animation: ball3 1s linear infinite;
+      }
+
+      @keyframes ball3 {
+         from{
+            transform: scale(1);
+            opacity: 1;
+         }
+
+         to{
+
+            transform: scale(1.3);
+            opacity: 0;
+         }
+         
+      }
+      
+      .ba8{
+         width: 250px;
+         height: 250px;
+         background: linear-gradient(rgb(1,160,249),rgb(9,199,120));
+         border-radius: 50%;
+         margin: auto;
+         /* transition: 1s; */
+         margin-top: 23px;
+         padding: 1px;
+      }
+      .ba9{
+         
+         width: 150px;
+         height: 150px;
+         background-image: url(./Neuron-img/artificial-intelligence\ \(2\).png);
+         filter: brightness(0) saturate(100%) invert(95%) sepia(0%) saturate(0%) hue-rotate(167deg) brightness(105%) contrast(107%);
+         background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin: auto;
+      margin-top: 45px;
+      }
+      .ba10{
+         width: 300px;
+         height: 300px;
+         border: 1px dashed rgb(1,160,249);
+         border-radius: 50%;
+         position: relative;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 60px;
+
+      }
+
+      
+      .baa4{
+         width: 300px;
+         height: 300px;
+         background: linear-gradient(rgb(1,160,249),rgb(9,199,120));
+         position: absolute;
+         border-radius: 50%;
+         margin-left: 20px;
+         opacity: 0;
+         top: 0;
+         left: -24px;
+      }
+      .baa4:hover{
+         animation: ball4 1s linear infinite;
+      }
+
+      @keyframes ball4 {
+         from{
+            transform: scale(1);
+            opacity: 1;
+         }
+
+         to{
+
+            transform: scale(1.3);
+            opacity: 0;
+         }
+         
+      }
+      .ba11{
+         width: 250px;
+         height: 250px;
+         background: linear-gradient(rgb(1,160,249),rgb(9,199,120));
+         border-radius: 50%;
+         margin: auto;
+         /* transition: 1s; */
+         margin-top: 23px;
+         padding: 1px;
+      }
+      .ba12{
+         width: 150px;
+         height: 150px;
+      background-image: url(./Neuron-img/digital.png);
+      filter: brightness(0) saturate(100%) invert(95%) sepia(0%) saturate(0%) hue-rotate(167deg) brightness(105%) contrast(107%);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin: auto;
+      margin-top: 45px;
+      }
+      .aa1{
+         width: 230px;
+         height: 30px;
+         /* border: 1px solid black; */
+         margin-left: 50px;
+         margin-top: 10px;
+         display: inline-block;
+         vertical-align: top;
+         font-size: 28px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 600;
+      }
+      .aa2{
+         width: 200px;
+         height: 30px;
+         /* border: 1px solid black; */
+         margin-left: 155px;
+         margin-top: 10px;
+         display: inline-block;
+         vertical-align: top;
+         font-size: 28px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 600;
+      }
+      .aa3{
+         width: 250px;
+         height: 30px;
+         /* border: 1px solid black; */
+         margin-left: 140px;
+         margin-top: 10px;
+         display: inline-block;
+         vertical-align: top;
+         font-size: 28px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 600;
+      }
+      .aa4{
+         width: 280px;
+         height: 30px;
+         /* border: 1px solid black; */
+         margin-left: 100px;
+         margin-top: 10px;
+         display: inline-block;
+         vertical-align: top;
+         font-size: 28px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 600;
+      }
+      .t1{
+         width: 81%;
+         height: 50px;
+         /* border: 1px solid black; */
+         margin-top: 80px;
+         margin-left: 135px;
+      }
+      .t2{
+         width: 45px;
+         height: 45px;
+         border: 1px dashed rgb(1,160,249);
+         border-radius: 50%;
+         display: inline-block;
+         vertical-align: top;
+         padding: 1px;
+      }
+      .t3{
+         width: 35px;
+         height: 35px;
+         background:  linear-gradient(rgb(1,160,249),rgb(9,199,120));
+         border-radius: 50%;
+         display: inline-block;
+         vertical-align: top;
+         margin-top: 3px;
+         margin-left: 3px;
+      }
+      #class5{
+         font-size: 25px;
+         rotate: 45deg;
+         color: rgb(9,199,120);
+         display: inline-block;
+         vertical-align: top;
+         margin-left: -5px;
+         margin-top: 10px;
+      }
+      .t4{
+         width: 280px;
+         height: 0px;
+         border: 1px dashed rgb(1,160,249);
+         display: inline-block;
+         vertical-align: top;
+         margin-top: 22px;
+         margin-left: 10px;
+      }
+      .t5{
+         width: 45px;
+         height: 45px;
+         border: 1px dashed rgb(1,160,249);
+         border-radius: 50%;
+         display: inline-block;
+         vertical-align: top;
+         margin-left: 10px;
+         padding: 1px;
+      }
+      .t6{
+         width: 35px;
+         height: 35px;
+         background:  linear-gradient(rgb(1,160,249),rgb(9,199,120));
+         border-radius: 50%;
+         display: inline-block;
+         vertical-align: top;
+         margin-top: 3px;
+         margin-left: 3px;
+      }
+      #class6{
+         font-size: 25px;
+         rotate: 45deg;
+         color: rgb(9,199,120);
+         display: inline-block;
+         vertical-align: top;
+         margin-left: -5px;
+         margin-top: 10px;
+      }
+      .t7{
+         width: 280px;
+         height: 0px;
+         border: 1px dashed rgb(1,160,249);
+         display: inline-block;
+         vertical-align: top;
+         margin-top: 22px;
+         margin-left: 10px;
+      }
+      .t8{
+         width: 45px;
+         height: 45px;
+         border: 1px dashed rgb(1,160,249);
+         border-radius: 50%;
+         display: inline-block;
+         vertical-align: top;
+         margin-left: 10px;
+         padding: 1px;
+      }
+      .t9{
+         width: 35px;
+         height: 35px;
+         background:  linear-gradient(rgb(1,160,249),rgb(9,199,120));
+         border-radius: 50%;
+         display: inline-block;
+         vertical-align: top;
+         margin-top: 3px;
+         margin-left: 3px;
+      }
+      #class7{
+         font-size: 25px;
+         rotate: 45deg;
+         color: rgb(9,199,120);
+         display: inline-block;
+         vertical-align: top;
+         margin-left: -5px;
+         margin-top: 10px;
+      }
+      .t10{
+         width: 280px;
+         height: 0px;
+         border: 1px dashed rgb(1,160,249);
+         display: inline-block;
+         vertical-align: top;
+         margin-top: 22px;
+         margin-left: 10px;
+      }
+      .t11{
+         width: 45px;
+         height: 45px;
+         border: 1px dashed rgb(1,160,249);
+         border-radius: 50%;
+         display: inline-block;
+         vertical-align: top;
+         margin-left: 10px;
+         padding: 1px;
+      }
+      .t12{
+         width: 35px;
+         height: 35px;
+         background:  linear-gradient(rgb(1,160,249),rgb(9,199,120));
+         border-radius: 50%;
+         display: inline-block;
+         vertical-align: top;
+         margin-top: 3px;
+         margin-left: 3px;
+      }
+      .section7{
+         width: 100%;
+         height: 130vh;
+         background-color: rgb(237,239,245);
+         padding: 1px;
+      }
+      .n1{
+         width: 380px;
+         height: 60px;
+         /* border: 1px solid black; */
+         margin:auto;
+         margin-top: 50px;
+         font-size: 46px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 700;
+      }
+      .n2{
+         width: 165px;
+         height: 10px;
+         background: linear-gradient(120deg,rgb(1,160,249),rgb(9,199,120));
+         margin-top: -15px;
+         margin-left: 44%;
+      }
+      
+      .cont1{
+            width: 90%;
+            height: 72vh;
+            /* border: 3px solid red; */
+            margin: auto;
+            margin-top: -750px;
+            overflow: hidden;
+        }
+
+        .slider1{
+            width: 200%;
+            height: 100%;
+            /* background-color: rgb(247,247,247); */
+
+            animation-name: slider1;
+            animation-duration: 10s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            /* animation-play-state:inherit ; */
+            animation-delay: 3s;
+             
+            
+
+        }
+
+        @keyframes slider1 {
+            0%{
+                margin-left: 0;
+            }
+            17%{
+                margin-left: -34%;
+
+            }
+            34%{
+               margin-left:-34%;
+
+            }
+            51%{
+               margin-left: -66%;
+
+            }
+            68%{
+               margin-left: -66%;
+
+            }
+            85%{
+               margin-left: -100%;
+            }
+            100%{
+               margin-left: -100%;
+            }
+            
+        }
+
+
+        .slidess3{
+             margin-left: 34px;
+             width:15%;
+             background-image: url(./Neuron-img/2\ \(1\).jpg);
+             background-position:top;
+             background-repeat: no-repeat;
+             background-size: contain;
+             background-color: white;     
+        }
+        .sl1{
+         width: 100%;
+         height: 30px;
+         /* border: 1px solid black; */
+         margin-top: 270px;
+         
+        }
+        #cla1{
+         font-size: 20px;
+         /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+         font-weight: 600;
+         color: rgb(1,160,249);
+         margin-left: 30px;
+         display: inline-block;
+         vertical-align: top;
+         margin-top: 2px;
+        }
+          #hs1{
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.673);
+            display: inline-block;
+            vertical-align: top;
+          }
+          #cla2{
+         font-size: 20px;
+         /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+         font-weight: 600;
+         color: rgb(1,160,249);
+         margin-left: 25px;
+         display: inline-block;
+         vertical-align: top;
+         margin-top: 2px;
+          }
+          #hs2{
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.662);
+            display: inline-block;
+            vertical-align: top;
+          }
+          #hs2{
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.666);
+            display: inline-block;
+            vertical-align: top;
+
+          }
+          #spa1{
+            font-size: 19px;
+            color: rgb(1,160,249);
+            font-weight: 500;
+            margin-left: 20px;
+
+          }
+          .sl2{
+            width: 100%;
+            height:70px;
+            /* border: 1px solid black; */
+            margin-top: 10px;
+            margin-left: 25px;
+            font-size: 25px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 700;
+          }
+          .sl3{
+            width: 100%;
+            height: 60px;
+            /* border: 1px solid black; */
+            font-size: 18px;
+            margin-left: 22px;
+            color: rgba(0, 0, 0, 0.674);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 500;
+          }
+          .sl4{
+         width: 150px;
+         height: 50px;
+         /* border: 1px solid black; */
+         background: linear-gradient(120deg,rgb(1,160,249),rgb(9,199,120));
+         border-radius: 28px;
+         margin-top: 10px;
+         margin-left: 20px;
+         padding: 1px;
+       display: inline-block;
+       vertical-align: top;
+       padding-top: 10px;
+       font-size: 20px;
+       padding-left: 20px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 400;
+         /* border: 2px solid red; */
+         /* margin-top: 40px; */
+         /* margin-left: 15px ; */
+         color: white;
+
+      }
+        .slidess4{
+         margin-left: 34px;
+         width: 15%;
+         background-image: url(./Neuron-img/1\ \(1\).jpg);
+         background-position: top;
+         background-repeat: no-repeat;
+         background-size: contain;
+         background-color: white;
+                    
+      }
+        .slidess5{
+         width: 15%;
+         margin-left: 34px;
+         background-image: url(./Neuron-img/3\ \(1\).jpg);
+         background-position: top;
+         background-size:contain ;
+         background-repeat: no-repeat;
+         background-color: white;
+
+        }
+        .section10{
+         width: 100%;
+         height: 90vh;
+         background-image: url(./Neuron-img/contact-bg.jpg);
+         margin-top: 220px;
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: left;
+         position: relative;
+        }
+        .u1{
+         width: 500px;
+         height: 640px;
+         background-color: white;
+         position: absolute;
+         padding: 1px;
+         top: -80px;
+         left: 80px;
+         border-radius: 10px;
+        }
+        .u2{
+         width: 200px;
+         height: 150px;
+         /* border: 1px solid black; */
+         margin-top: 30px;
+         margin-left: 50px;
+        }
+        #class8{
+         font-size: 100px;
+         filter: brightness(0) saturate(100%) invert(54%) sepia(17%) saturate(5975%) hue-rotate(135deg) brightness(97%) contrast(94%);
+         font-weight: 700;
+         margin-top: px;
+
+        }
+        .u3{
+         width: 340px;
+         height: 70px;
+         /* border: 1px solid black; */
+         margin-left: 50px;
+         margin-top: -15px;
+         font-size: 40px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 700;
+        }
+        
+      .u4{
+         width: 130px;
+         height: 10px;
+         background: linear-gradient(120deg,rgb(1,160,249),rgb(9,199,120));
+         margin-top: -30px;
+         margin-left: 11%;
+      }
+      .u5{
+         width: 300px;
+         height: 140px;
+         /* border: 1px solid black; */
+         margin-top: 20px;
+         margin-left:50px ;
+      }
+      .u6{
+         width: 100%;
+         height: 30px;
+         /* border: 1px solid black; */
+         font-size: 20px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 600;
+         color:black;
+         padding-left: 40px;
+         padding-top: 14px;
+      }
+       #class9{
+         font-size: 35px;
+         filter: brightness(0) saturate(100%) invert(54%) sepia(17%) saturate(5975%) hue-rotate(135deg) brightness(97%) contrast(94%);
+          margin-top: -35px;
+      }
+      .u7{
+         width: 100%;
+         height: 80px;
+         /* border: 1px solid black; */
+         margin-top: 0px;
+      }
+      #p12{
+         font-size: 17px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 400;
+         color: rgba(0, 0, 0, 0.76);
+         margin-left: 33px;
+         line-height: 30px;
+      }
+      .u8{
+         width: 300px;
+         height: 140px;
+         /* border: 1px solid black; */
+         margin-top: -10px;
+         margin-left:50px ;
+      }
+      .u10{
+         width: 100%;
+         height: 30px;
+         /* border: 1px solid black; */
+         font-size: 20px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 600;
+         color:black;
+         padding-left: 40px;
+         padding-top: 14px;
+      }
+       #class10{
+         font-size: 35px;
+         filter: brightness(0) saturate(100%) invert(54%) sepia(17%) saturate(5975%) hue-rotate(135deg) brightness(97%) contrast(94%);
+          margin-top: -35px;
+      }
+      .u7{
+         width: 100%;
+         height: 80px;
+         /* border: 1px solid black; */
+         margin-top: 0px;
+      }
+      #p13{
+         font-size: 17px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 400;
+         color: rgba(0, 0, 0, 0.76);
+         margin-left: 40px;
+         line-height: 30px;
+      }
+   
+      .u11{
+         width: 300px;
+         height: 140px;
+         /* border: 1px solid black; */
+         margin-top: -10px;
+         margin-left:40px ;
+      }
+      .u13{
+         width: 100%;
+         height: 30px;
+         /* border: 1px solid black; */
+         font-size: 20px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 600;
+         color:black;
+         padding-left: 45px;
+         padding-top: 14px;
+      }
+       #class11{
+         font-size: 35px;
+         filter: brightness(0) saturate(100%) invert(54%) sepia(17%) saturate(5975%) hue-rotate(135deg) brightness(97%) contrast(94%);
+          margin-top: -35px;
+      }
+      .u12{
+         width: 100%;
+         height: 80px;
+         /* border: 1px solid black; */
+         margin-top: 0px;
+      }
+      #p14{
+         font-size: 17px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 400;
+         color: rgba(0, 0, 0, 0.76);
+         margin-left: 45px;
+         line-height: 30px;
+      }
+      .input1{
+         width: 380px;
+         height: 55px;
+         border: 0px solid;
+         border-radius: 5px;
+         margin-top: 80px;
+         margin-left: 42%;
+         background-color: rgba(255, 255, 255, 0.359);
+         font-size: 18px;
+         padding-left: 20px;
+         font-weight: 600;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         color: white;
+         display: inline-block;
+         vertical-align: top;
+      }
+      .input2{
+         width: 380px;
+         height: 55px;
+         border: 0px solid ;
+         border-radius: 5px;
+         margin-top: 80px;
+         margin-left: 40px;
+         background-color: rgba(255, 255, 255, 0.359);
+         font-size: 18px;
+         padding-left: 20px;
+         font-weight: 600;
+         color:white;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         display: inline-block;
+         vertical-align: top;
+      }
+      .input3{
+         width: 380px;
+         height: 55px;
+         border: 0px solid ;
+         border-radius: 5px;
+         margin-top: 50px;
+         margin-left: 42%;
+         background-color: rgba(255, 255, 255, 0.359);
+         font-size: 17px;
+         padding-left: 20px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 600;
+         color: white;
+         display: inline-block;
+         /* vertical-align: top; */
+      }
+      
+      .input4{
+         width: 380px;
+         height: 55px;
+         border: 0px solid;
+         border-radius: 5px;
+         margin-top: 50px;
+         margin-left: 40px;
+         background-color: rgba(255, 255, 255, 0.359);
+         font-size: 17px;
+         padding-left: 20px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 600;
+         color: white  !important;    
+         display: inline-block;
+         vertical-align: top;
+      }
+
+      .input1::placeholder{
+         color: white;
+      }
+      
+      .input2::placeholder{
+         color: white;
+      }
+      
+      .input3::placeholder{
+         color: white;
+      }
+      
+      .input4::placeholder{
+         color: white;
+      }
+
+      #text1{
+        width: 805px;
+        height: 170px;
+        border: 0px solid ;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.301);
+        margin-left: 42%;
+        margin-top: 30px;
+        font-size: 18px;
+        padding-left: 20px;
+        padding-top: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;   
+    }
+    .button1{
+      width: 805px;
+      height: 60px;
+      border: 0px;
+      border-radius: 5px;
+      background-color: white;
+     margin-left: 42%;
+     margin-top: 30px;   
+     font-size: 19px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 600;
+   }
+   .section11{
+      width: 100%;
+      height: 65vh;
+      background-image: url(./Neuron-img/footer-bg.jpg);
+      background-position: top left;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 1px;
+   }
+   .fot1{
+      width: 300px;
+      height: 240px;
+      /* border: 1px solid black; */
+      margin-top: 80px;
+      margin-left: 70px;
+      display: inline-block;
+      vertical-align: top;
+   }
+   .fot2{
+      width: 142px;
+      height: 50px;
+      /* border: 1px solid black; */
+      background-image: url(./Neuron-img/logo.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+   }
+   .fot3{
+      width: 100%;
+      height: 70px;
+      /* border: 1px solid black; */
+      margin-left: 10px;
+      margin-top: 20px;
+   }
+   #p15{
+      font-size: 16px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.797);
+      line-height: 25px;
+   }
+   .fot4{
+      width: 70%;
+      height: 50px;
+      /* border: 1px solid black; */
+      margin-top: 30px;
+
+   }
+   .font1{
+      width: 45px;
+      height: 45px;
+      /* border: 1px solid black; */
+      background: linear-gradient(rgb(1,160,249),rgb(9,199,120));
+      border-radius: 50%;
+      margin-left: 10px;
+      display: inline-block;
+      vertical-align: top;
+
+   }
+   .font2{
+      width: 45px;
+      height: 45px;
+      /* border: 1px solid black; */
+      background: linear-gradient(rgb(1,160,249),rgb(9,199,120));
+      border-radius: 50%;
+      margin-left: 20px;
+      display: inline-block;
+      vertical-align: top;
+
+   }
+   .font3{
+      width: 45px;
+      height: 45px;
+      /* border: 1px solid black; */
+      background: linear-gradient(rgb(1,160,249),rgb(9,199,120));
+      border-radius: 50%;
+      margin-left: 22px;
+      display: inline-block;
+      vertical-align: top;
+
+   }
+   #fon1{
+      font-size:20px;
+      color: white;
+      padding-top: 13px;
+      padding-left: 13px;
+   }
+   .fot5{
+      width: 320px;
+      height: 200px;
+      /* border: 1px solid black; */
+      margin-left:50px ;
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 85px;
+   }
+   .fot6{
+      width: 150px;
+      height: 30px;
+      /* border: 1px solid black; */
+      font-size: 23px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.829);
+   }
+   .fot7{
+      width: 63px;
+      height: 5px;
+      background: linear-gradient(120deg,rgb(1,160,249),rgb(9,199,120));
+      margin-top: -10px;
+   }
+   .fot8{
+      width: 100%;
+      height: 100px;
+      /* border: 1px solid black; */
+      margin-top: 40px;
+   }
+   #p16{
+      font-size: 17px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.595);
+      /* line-height: 40px; */
+   }
+   #p17{
+      font-size: 17px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.596);
+      margin-top: 30px;
+      /* line-height: 40px; */
+   }
+   .fot9{
+      width:300px;
+      height: 220px;
+      /* border: 1px solid black; */
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 70px;
+      margin-top: 82px;
+   }
+   
+   .fot10{
+      width: 150px;
+      height: 30px;
+      /* border: 1px solid black; */
+      font-size: 22px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.829);
+   }
+   .fot11{
+      width: 75px;
+      height: 5px;
+      background: linear-gradient(120deg,rgb(1,160,249),rgb(9,199,120));
+      margin-top: -10px;
+   }
+   .fot12{
+      width: 100%;
+      height: 198px;
+      /* border: 1px solid; */
+      margin-top: 28px;
+
+   }
+   #ul3{
+      font-size: 17px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.507);
+      list-style: none;
+      line-height: 30px;
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 6px;
+   }
+   #ul4{
+      font-size: 17px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.503);
+      list-style: none;
+      line-height: 30px;
+      margin-top: -150px;
+      margin-left: 190px;
+      display: inline-block;
+      vertical-align: top;
+   }
+   .fot13{
+      width: 250px;
+      height: 200px;
+      /* border: 1px solid black; */
+      margin-left: 20px;
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 82px; 
+
+   }
+   .fot14{
+      width: 200px;
+      height: 30px;
+      /* border: 1px solid black; */
+      font-size: 22px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 600;
+      color: rgba(0, 0, 0, 0.829);
+   }
+   .fot15{
+      width: 75px;
+      height: 5px;
+      background: linear-gradient(120deg,rgb(1,160,249),rgb(9,199,120));
+      margin-top: -10px;
+   }
+   .fot16{
+      width: 100%;
+      height: 150px;
+      /* border: 1px solid black; */
+      margin-top: 10px;
+   }
+   #ul5{
+      
+      font-size: 17px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.507);
+      list-style: none;
+      line-height: 30px;
+      /* display: inline-block; */
+      /* vertical-align: top; */
+      margin-top: 28px;
+   }
+   .fot17{
+      width: 100%;
+      height: 0px;
+      border: 1px solid rgba(0, 0, 0, 0.053);
+      margin-top: 80px;
+   }
+   .fot18{
+      width: 300px;
+      height: 20px;
+      /* border: 1px solid black; */
+      margin-left: 42%;
+      margin-top: 23px;
+      font-size: 15px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 450;
+      color: black;
+   }
+
+
+
+
+  
+</style>
+<body>
+    <main>
+       <header id="header1">
+        <nav id="nav1">
+            <div id="d1">
+                <div id="chld1">
+                    <i id="class1" class="fa-regular fa-envelope"></i>
+                    <h1 id="h1">info@yourwebsite.com</h1>
+                </div>
+                <div id="chld2">
+                    <i id="class2" class="fa-solid fa-phone"></i>
+                    <h1 id="h2">(+123)456789</h1>
+                </div>
+            </div>
+            <div id="d2">
+                <i id="class2"  class="fa-brands fa-facebook-f"></i>
+                <i id="class2" class="fa-brands fa-google"></i>
+                <i id="class2" class="fa-brands fa-twitter"></i>
+                <div id="d3">in</div>
+            </div>
+        </nav>
+        <nav id="nav2">
+            <div id="d4"></div>
+            <div id="d5">
+                <ul id="ul01">
+                    <li" id="list1"> HOME</li>
+                    <li id="list1">ABOUT</li>
+                    <li id="list1">FEATURE</li>
+                    <li id="list1">PAGES</li>
+                    <li id="list1">SHOP</li>
+                    <li id="list1">BLOG</li>
+                    <li id="list1">CONTACT</li>
+                </ul>
+            </div>
+            <div id="d6">
+                <i id="class3" class="fa-solid fa-bag-shopping"></i>
+                <i id="class3" class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </nav>
+        <div id="d7">
+            <div id="d8">AI & Machine Learning Products Creators</div>
+            <div id="d9">Innovative machine learning products and services<br/> on a trusted platform</div>
+            <div id="d10">
+                <h1 id="h3">LEARN MORE</h1>
+            </div>
+            <div id="d11">
+                <h1 id="h4">JOIN NOW</h1>
+            </div>
+        </div>
+        <div id="s1"></div>
+        <div id="s2"></div>
+        
+       </header>
+       <section id="section1">
+         <div id="s3">
+          <div id="s4">
+            <img id="img1" src="./Neuron-img/ai.png" alt="">
+          </div>
+          <div id="s5">Advanced Programing</div>
+          <div id="s6">
+            <p id="p1">Find out what's working and what's not<br/> Dig your data to find</p>
+          </div>
+         </div>
+         <div class="s7">
+            <div class="s8"></div>
+            <div class="s9"> Cloud AI intergration</div>
+            <div class="s10">
+               <p id="p2">Find out what's working and what's not<br/> Dig your data to find</p>
+            </div>
+         </div>
+         <div class="q1">
+            <div class="q2"></div>
+            <div class="q3">AI Chippest</div>
+            <div class="q4">
+               <p id="p3">Find out what's working and what's not<br/> Dig your data to find</p>
+            </div>
+         </div>
+         <div id="q5">
+            <div id="q6"></div>
+            <div id="q7">Robotic Arm</div>
+            <div id="q8">
+               <p id="p4">Find out what's working and what's not<br/> Dig your data to find</p>
+            </div>
+         </div>
+         <div class="q9">
+            <div class="l1">Power Your Creativity With Artificial Intelligence</div>
+            <div class="g1"></div>
+            <div class="l2">
+               <p id="p5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus,<br/> non suscipit arcu. Quisque aliquam posuere tortor, sit amet convallis nunc<br/> scelerisque in.</p>
+               <p id="p6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore eius molesti<br/> ae facere, natus reprehenderit eaque eum, autem ipsam. Magni, error. Tem<br/> pora odit laborum iure inventore possimus laboriosam qui nam. Fugit!</p>
+            </div>
+            <div class="l3">
+               <h1 id="h5">Learn More</h1>
+            </div>
+         </div>
+         <div class="l4">
+            <div class="l5">We Create The Most Realistic Artificial Intelligence</div>
+            <div class="l6"></div>
+            <div class="l7">
+               <p id="p7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit<br/> arcu. Quisque aliquam posuere tortor, sit amet convallis nunc scelerisque in.</p>
+               <p id="p8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore eius molesti ae facere,<br/> natus reprehenderit eaque eum, autem ipsam. Magni, error. Tem pora odit laborum iure<br/> inventore possimus laboriosam qui nam. Fugit!</p>
+               <div class="l8">
+                  <h1 id="h6">LEARN MORE</h1>
+               </div>
+              <div class="l10">
+                 <i id="c1" class="fa-regular fa-circle-play"></i>
+                  <div class="l9"></div>
+               
+              </div>
+            </div>
+         </div>
+         <div class="z1"></div>
+       </section>
+       <section id="section2">
+          <div class="z2">
+            <div class="z3">
+               <div class="z4">6000 <span id="span1">+</span></div>
+               <div class="z5">Complete Project</div>
+            </div>
+            <div class="z6">
+               <div class="z7">400 <span id="span1">+</span></div>
+               <div class="z8">NLP Experts</div>
+            </div>
+            <div class="z9">
+               <div class="z10"> 3500 <span id="span1">+</span></div>
+               <div class="z11">Satisfied Clients</div>
+            </div>
+            <div class="z12">
+               <div class="z13">8000 <span id="span1">+</span></div>
+               <div class="z14">Industries Served</div>
+            </div>
+            
+         </div>
+
+       </section>
+       <section  class="x1">
+         <div class="x2">Our Core Services</div>
+         <div class="x3"></div>
+         <div class="x4">
+            <div class="x5">
+               <div class="x6"></div>
+               <div class="x7"> Virtual Personal Assistants</div>
+               <div class="x8">
+                  <p id="p9">Capitalize on low hanging fruit to identify a ball<br/> park value added activity to beta test. Override,<br/> the, digital divide with additional</p>
+               </div>
+            </div>
+            <div class="x9">
+               <div class="x11"></div>
+               <div class="x10">Videos Surveillance</div>
+               <div class="x12">
+                  <p id="p10">Capitalize on low hanging fruit to identify a ball<br/> park value added activity to beta test. Override,<br/> the, digital divide with additional</p>
+               </div>
+            </div>
+            <div class="x13">
+               <div class="x14"></div>
+               <div class="x15">Social Media Services</div>
+               <div class="x16">
+                  <p id="p11">Capitalize on low hanging fruit to identify a ball<br/> park value added activity to beta test. Override,<br/> the, digital divide with additional</p>
+               </div>
+            </div>
+            <div class="c1">
+               <div class="c2"></div>
+               <div class="c3">Online Customer Support</div>
+               <div class="c4">
+                  <p id="p11">Capitalize on low hanging fruit to identify a ball<br/> park value added activity to beta test. Override,<br/> the, digital divide with additional</p>
+               </div>
+            </div>
+            <div class="c5">
+               <div class="c6"></div>
+               <div class="c7">Search Engine Result Refining</div>
+               <div class="c8">
+                  <p id="p11">Capitalize on low hanging fruit to identify a ball<br/> park value added activity to beta test. Override,<br/> the, digital divide with additional</p>
+               </div>
+            </div>
+            <div class="c9">
+               <div class="c10"></div>
+               <div class="c11"> Online Fraud Detection</div>
+               <div class="c12">
+                  <p id="p11">Capitalize on low hanging fruit to identify a ball<br/> park value added activity to beta test. Override,<br/> the, digital divide with additional</p>
+                  
+               </div>
+            </div>
+         </div>
+       </section>
+       <section class="section3">
+         <div class="ca1">Our Latest Project</div>
+         <div class="ca2"></div>
+         <div class="cont">
+            <div class="slider">
+                <div class="slides "></div>
+                <div class="slides slidess"></div>
+                <div class="slides slidess1"></div>
+                <div class="slides slidess"></div>
+                <div class="slides slidess"></div>
+                <div class="slides slidess"></div>
+                <div class="slides slidess2"></div>
+
+    
+            </div>
+        </div>
+       </section>
+       <section class="section5">
+          <div class="section4">
+            <div class="k1">
+               <i id="class4" class="fa-solid fa-envelope-open-text"></i>
+            </div>
+            <div class="k2">Don’t Miss Our News<br/>
+               And Updates!</div>
+               <div class="k3"></div>
+          </div>
+          <div class="f1">
+            
+            <div class="k4"></div>
+            <div class="k5"></div>
+            <div class="k6"></div>
+            <div class="k8"></div>
+            <div class="k11"></div>
+            <div class="b1"></div>
+            <div class="b2"></div>
+            <div class="b3"></div>
+            <div class="b4"></div>
+
+          </div>          
+       </section>
+
+       <section class="section6">
+         <div class="b5">How We Works</div>
+         <div class="b6"></div>
+         <div class="b7">
+            <div class="ba1">
+               <div class="baa1"></div>
+               <div class="ba2">
+                  <div class="ba5"></div>
+               </div>
+            </div>
+            <div class="ba3">
+               <div class="baa2"></div>
+               <div class="ba4">
+                  <div class="ba6"></div>
+               </div>
+            </div>
+            <div class="ba7">
+               <div class="baa3"></div>
+               <div class="ba8">
+                  <div class="ba9"></div>
+               </div>
+            </div>
+            <div class="ba10">
+               <div class="baa4"></div>
+               <div class="ba11">
+                  <div class="ba12"></div>
+               </div>
+            </div>
+            <div class="aa1">Data Generated</div>
+            <div class="aa2">Data Stored</div>
+            <div class="aa3">Data Processing</div>
+            <div class="aa4">Actionable Insights</div>
+         </div>
+
+         <div class="t1">
+            <div class="t2">
+               <div class="t3"></div>
+            </div>
+               <i id="class5" class="fa-solid fa-location-arrow"></i>
+               <div class="t4"></div>
+               <div class="t5">
+                  <div class="t6"></div>
+               </div>
+               <i id="class6" class="fa-solid fa-location-arrow"></i>
+               <div class="t7"></div>
+               <div class="t8">
+                  <div class="t9"></div>
+               </div>
+               <i id="class7" class="fa-solid fa-location-arrow"></i>
+               <div class="t10"></div>
+               <div class="t11">
+                  <div class="t12"></div>
+               </div>
+         </div>
+       </section>
+       <section class="section7">
+         <div class="n1">Recent Blog Post</div>
+         <div class="n2"></div>
+       </section>
+       <section class="m1">
+         <div class="cont1">
+            <div class="slider1">
+                <div class="slides1 "></div>
+                <div class="slides slidess3">
+                  <div class="sl1">
+                     <i id="cla1" class="fa-regular fa-calendar-check"></i>
+                     <h1 id="hs1">Nov 28,2019</h1>
+                     <i id="cla2" class="fa-regular fa-user"></i>
+                     <h1 id="hs2">Admin <span id="spa1">10</span> Comments</h1>
+                  </div>
+                  <div class="sl2">Man in Red Plaid Shirt Talking<br/> on Phone Terrace</div>
+                  <div class="sl3">The Tutorial covers examples of identification<br/> And Rew Garfield and verifies if a picture</div>
+                  <div class="sl4"> READ MORE</div>
+               </div>
+               <div class="slides slidess4">
+               <div class="sl1">
+                     <i id="cla1" class="fa-regular fa-calendar-check"></i>
+                     <h1 id="hs1">Nov 28,2019</h1>
+                     <i id="cla2" class="fa-regular fa-user"></i>
+                     <h1 id="hs2">Admin <span id="spa1">10</span> Comments</h1>
+                  </div>
+                  <div class="sl2">Man in Red Plaid Shirt Talking<br/> on Phone Terrace</div>
+                  <div class="sl3">The Tutorial covers examples of identification<br/> And Rew Garfield and verifies if a picture</div>
+                  <div class="sl4"> READ MORE</div>
+               </div>
+               <div class="slides slidess3">
+               <div class="sl1">
+                     <i id="cla1" class="fa-regular fa-calendar-check"></i>
+                     <h1 id="hs1">Nov 28,2019</h1>
+                     <i id="cla2" class="fa-regular fa-user"></i>
+                     <h1 id="hs2">Admin <span id="spa1">10</span> Comments</h1>
+                  </div>
+                  <div class="sl2">Man in Red Plaid Shirt Talking<br/> on Phone Terrace</div>
+                  <div class="sl3">The Tutorial covers examples of identification<br/> And Rew Garfield and verifies if a picture</div>
+                  <div class="sl4"> READ MORE</div>
+               </div>
+               <div class="slides slidess5">
+               <div class="sl1">
+                     <i id="cla1" class="fa-regular fa-calendar-check"></i>
+                     <h1 id="hs1">Nov 28,2019</h1>
+                     <i id="cla2" class="fa-regular fa-user"></i>
+                     <h1 id="hs2">Admin <span id="spa1">10</span> Comments</h1>
+                  </div>
+                  <div class="sl2">Man in Red Plaid Shirt Talking<br/> on Phone Terrace</div>
+                  <div class="sl3">The Tutorial covers examples of identification<br/> And Rew Garfield and verifies if a picture</div>
+                  <div class="sl4"> READ MORE</div>
+               </div>
+               <div class="slides slidess3">
+               <div class="sl1">
+                     <i id="cla1" class="fa-regular fa-calendar-check"></i>
+                     <h1 id="hs1">Nov 28,2019</h1>
+                     <i id="cla2" class="fa-regular fa-user"></i>
+                     <h1 id="hs2">Admin <span id="spa1">10</span> Comments</h1>
+                  </div>
+                  <div class="sl2">Man in Red Plaid Shirt Talking<br/> on Phone Terrace</div>
+                  <div class="sl3">The Tutorial covers examples of identification<br/> And Rew Garfield and verifies if a picture</div>
+                  <div class="sl4"> READ MORE</div>
+               </div>
+               <div class="slides slidess4">
+               <div class="sl1">
+                     <i id="cla1" class="fa-regular fa-calendar-check"></i>
+                     <h1 id="hs1">Nov 28,2019</h1>
+                     <i id="cla2" class="fa-regular fa-user"></i>
+                     <h1 id="hs2">Admin <span id="spa1">10</span> Comments</h1>
+                  </div>
+                  <div class="sl2">Man in Red Plaid Shirt Talking<br/> on Phone Terrace</div>
+                  <div class="sl3">The Tutorial covers examples of identification<br/> And Rew Garfield and verifies if a picture</div>
+                  <div class="sl4"> READ MORE</div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="section10">
+         <div class="u1">
+         <div class="u2">
+            <i id="class8" class="fa-solid fa-map-location-dot"></i>
+         </div>   
+         <div class="u3">Contact With Us</div>
+         <div class="u4"></div>
+         <div class="u5">
+            <div class="u6"> Visit Us</div>
+            <i id="class9" class="fa-solid fa-location-dot"></i>
+            <div class="u7">
+               <p id="p12">530 Old BUffalo Street<br/>
+                  Northwest #205, New York - 3087</p>
+            </div>
+         </div>
+         <div class="u8">
+            <div class="u10"> Call Us</div>
+            <i id="class10" class="fa-solid fa-mobile-screen-button"></i>
+            <div class="u9">
+               <p id="p13">
+                  +1 (123) -456-7890<br/>
+                  +1 (123) -456-7890</p>
+            </div>
+         </div>
+         <div class="u11">
+            <div class="u13"> Email Us</div>
+            <i id="class11" class="fa-solid fa-envelope-open-text"></i>
+            <div class="u12">
+               <p id="p14">
+                  infoname@gmail.com<br/>
+                  www.yourname.com</p>
+            </div>
+         </div>
+         </div>
+
+         <input class="input1" type="text" placeholder="Name">
+         <input class="input2" type="text" placeholder="E-mail">
+         <input class="input3" type="text" placeholder="Phone Number">
+         <input class="input4" type="text" placeholder="Subject">
+         <textarea name="" id="text1"> Your Message Here</textarea>
+         <button class="button1"> SUBMIT NOW!</button>
+      </section>
+
+      <section class="section11">
+         <div class="fot1">
+            <div class="fot2"></div>
+            <div class="fot3">
+               <p id="p15"> Lorem ipsum dolor sit amet, conse turini<br/> adipiscing elit, sed do eiusmod tempor<br/> in cididunt ut labore.</p>
+            </div>
+            <div class="fot4">
+               <div class="font1">
+                  <i id="fon1" class="fa-brands fa-facebook"></i>
+               </div>
+               <div class="font2">
+                  <i id="fon1" class="fa-brands fa-instagram"></i>
+               </div>
+               <div class="font3">
+                  <i id="fon1" class="fa-brands fa-twitter"></i>
+               </div>
+            </div>
+         </div>
+         <div class="fot5">
+            <div class="fot6">Work Hours</div>
+            <div class="fot7"></div>
+            <div class="fot8">
+               <p id="p16">10.00 AM - 6.00 PM , Monday - Saturday</p>
+
+               <p id="p17">Our Support and Sales team is available 24 * 7 to answer your queries</p>
+                       
+               </div>
+         </div>
+         <div class="fot9">
+            <div class="fot10">NAVIGATE</div>
+            <div class="fot11"></div>
+            <div class="fot12">
+
+               <ul id="ul3">
+                  <li id="li2">About Us</li>
+                     <li id="li2">Features</li>
+                     <li id="li2">Mobile App</li>
+                     <li id="li2">Software Demo</li>
+                     <li id="li2">Software Download</li>
+                     <ul id="ul4">
+                        <li>Blog</li>
+                          <li> Team</li>
+                           <li>ChatBot</li>
+                     </ul>
+               </ul>
+            </div>
+
+         </div>
+
+         <div class="fot13">
+            <div class="fot14">PRIVACY & TOS</div>
+            <div class="fot15"></div>
+            <div class="fot16">
+               <ul id="ul5">
+                  <li>Privacy</li>
+                   <li>Contact</li>
+                   <li>Login</li>
+                    <li>Register</li>
+               </ul>
+            </div>
+         </div>
+
+         <div class="fot17"></div>
+         <div class="fot18">© Copyrights 2019 AuburnForest</div>
+      </section>
+      
+      
+   </main>
+</body>
+</html>
